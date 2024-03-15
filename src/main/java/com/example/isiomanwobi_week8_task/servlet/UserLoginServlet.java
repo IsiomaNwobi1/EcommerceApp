@@ -10,9 +10,9 @@ import java.io.IOException;
 import java.sql.*;
 
 @WebServlet(name = "loginServlet", value = "/login-servlet")
-public class LoginServlet extends HttpServlet {
+public class UserLoginServlet extends HttpServlet {
 
-    private static final String JDBC_URL = "jdbc:mysql://localhost:3306/userDB";
+    private static final String JDBC_URL = "jdbc:mysql://localhost:3306/ecommerce";
     private static final String JDBC_USER = "root";
     private static final String JDBC_PASSWORD = "Isioma12345";
 
@@ -25,7 +25,7 @@ public class LoginServlet extends HttpServlet {
             Class.forName("com.mysql.cj.jdbc.Driver");
 
             try (Connection conn = DriverManager.getConnection(JDBC_URL, JDBC_USER, JDBC_PASSWORD)) {
-                String sql = "SELECT * FROM user WHERE email=? AND password=?";
+                String sql = "SELECT * FROM userDB WHERE email=? AND password=?";
                 try (PreparedStatement statement = conn.prepareStatement(sql)) {
                     statement.setString(1, email);
                     statement.setString(2, password);

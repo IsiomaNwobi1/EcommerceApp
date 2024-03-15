@@ -17,7 +17,7 @@ public class UserDao {
 
     public void addUser(User user) {
         try {
-            PreparedStatement preparedStatement = connection.prepareStatement("INSERT INTO user(firstName, lastName, email, password) VALUES (?, ?, ?, ?)");
+            PreparedStatement preparedStatement = connection.prepareStatement("INSERT INTO userDB(firstName, lastName, email, password) VALUES (?, ?, ?, ?)");
             preparedStatement.setString(1, user.getFirstName());
             preparedStatement.setString(2, user.getLastName());
             preparedStatement.setString(3, user.getEmail());

@@ -53,12 +53,22 @@
                                 <div class=" d-none d-lg-flex">
                                     <li class="nav-item">
                                         <a class="nav-link" href="signup.jsp">
-                                            Login / Sign-up
+                                            Sign-up
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="login.jsp">
+                                            Login
                                         </a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="login.jsp">
                                             CART
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="admin-signup.jsp">
+                                            ADMIN
                                         </a>
                                     </li>
                                 </div>

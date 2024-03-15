@@ -9,9 +9,20 @@
 <html>
 <head>
     <title>Login Success</title>
+    <style>
+        a{
+            color: white;
+        }
+        body{
+            background-color: #ff5dd7;
+        }
+        h1{
+            color: white;
+        }
+    </style>
 </head>
 <body>
-<h1>Welcome User</h1>
-<p>Welcome, ${email} to your dashboard</p>
+<h1>Welcome Aboard!!!</h1>
+<a href="http://localhost:8080"> Click here to go to home page</a>
 </body>
 </html>

@@ -10,6 +10,26 @@
 <head>
     <title>Login</title>
     <link rel="stylesheet" href="css/style.css">
+    <style>
+
+        body{
+            background-color: #ff5dd7;
+        }
+        form{
+            color: white;
+        }
+        h2{
+            color: white;
+        }
+        a {
+            color: white;
+        }
+
+        input{
+            color: #ff5dd7;
+        }
+
+    </style>
 </head>
 <body>
 <div align="center">

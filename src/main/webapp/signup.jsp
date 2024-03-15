@@ -9,10 +9,30 @@
 <html>
 <head>
     <title>Signup Form</title>
+    <style>
+
+        body{
+            background-color: #ff5dd7;
+        }
+        form{
+            color: white;
+        }
+        h1{
+            color: white;
+        }
+        a {
+            color: white;
+        }
+
+        input{
+            color: #ff5dd7;
+        }
+
+    </style>
 </head>
 <body>
 <div align="center">
-    <h1>Signup Form</h1>
+    <h1>User Signup</h1>
     <form action="/signup" method="post">
         First Name : <input type="text" name="firstName" /><br /><br />
         Last Name : <input type="text" name="lastName" /><br /><br />
