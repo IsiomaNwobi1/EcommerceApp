@@ -62,8 +62,8 @@
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="login.jsp">
-                                            CART
+                                        <a class="nav-link" href="products.jsp">
+                                            STORE
                                         </a>
                                     </li>
                                     <li class="nav-item">
@@ -83,8 +83,8 @@
                         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                         <div class="overlay-content">
                             <a href="http://localhost:8080">HOME</a>
-                            <a href="product.jsp">PRODUCTS</a>
-                            <a href="product.html">CART</a>
+                            <a href="products.jsp">PRODUCTS</a>
+                            <a href="cart.jsp">CART</a>
                         </div>
                     </div>
                 </div>
@@ -183,7 +183,7 @@
                                                     We're thrilled to have you join us on this adventure.
                                                 </p>
                                                 <div class="d-flex">
-                                                    <a href="" class="slider_btn">
+                                                    <a href="products.jsp" class="slider_btn">
                                                         Order Now
                                                     </a>
                                                 </div>
@@ -283,12 +283,12 @@
     </div>
     <div class="container layout_padding">
         <div class="product_container">
-            <a href="">
+            <a href="products.jsp">
                 <div class="product_box">
                     <div class="product_img-box">
                         <img src="images/p1.png" alt="" />
                         <span>
-                Add to Cart
+                SHOP NOW
               </span>
                     </div>
                     <div class="product_detail-box">
@@ -301,17 +301,17 @@
                     </div>
                 </div>
             </a>
-            <a href="">
+            <a href="products.jsp">
                 <div class="product_box">
                     <div class="product_img-box">
                         <img src="images/p2.png" alt="" />
                         <span>
-                Add to Cart
+                SHOP NOW
               </span>
                     </div>
                     <div class="product_detail-box">
               <span>
-                $110.00
+                $300.00
               </span>
                         <p>
                             Luxury Clock
@@ -319,17 +319,17 @@
                     </div>
                 </div>
             </a>
-            <a href="">
+            <a href="products.jsp">
                 <div class="product_box">
                     <div class="product_img-box">
                         <img src="images/p3.png" alt="" />
                         <span>
-                Add to Cart
+                SHOP NOW
               </span>
                     </div>
                     <div class="product_detail-box">
               <span>
-                $30.00
+                $100.00
               </span>
                         <p>
                             Kiddies Blue Slides
@@ -337,102 +337,12 @@
                     </div>
                 </div>
             </a>
-            <a href="">
+            <a href="products.jsp">
                 <div class="product_box">
                     <div class="product_img-box">
                         <img src="images/p4.png" alt="" />
                         <span>
-                Add to Cart
-              </span>
-                    </div>
-                    <div class="product_detail-box">
-              <span>
-                $20.00
-              </span>
-                        <p>
-                            Hand Fan
-                        </p>
-                    </div>
-                </div>
-            </a>
-            <a href="">
-                <div class="product_box">
-                    <div class="product_img-box">
-                        <img src="images/p5.png" alt="" />
-                        <span>
-                Add to Cart
-              </span>
-                    </div>
-                    <div class="product_detail-box">
-              <span>
-                $100.00
-              </span>
-                        <p>
-                            Luxe HeadSet (Royal Pink)
-                        </p>
-                    </div>
-                </div>
-            </a>
-            <a href="">
-                <div class="product_box">
-                    <div class="product_img-box">
-                        <img src="images/p6.png" alt="" />
-                        <span>
-                Add to Cart
-              </span>
-                    </div>
-                    <div class="product_detail-box">
-              <span>
-                $60.00
-              </span>
-                        <p>
-                            SunGlasses
-                        </p>
-                    </div>
-                </div>
-            </a>
-            <a href="">
-                <div class="product_box">
-                    <div class="product_img-box">
-                        <img src="images/p7.png" alt="" />
-                        <span>
-                Add to Cart
-              </span>
-                    </div>
-                    <div class="product_detail-box">
-              <span>
-                $90.00
-              </span>
-                        <p>
-                            Sneakers
-                        </p>
-                    </div>
-                </div>
-            </a>
-            <a href="">
-                <div class="product_box">
-                    <div class="product_img-box">
-                        <img src="images/p8.png" alt="" />
-                        <span>
-                Add to Cart
-              </span>
-                    </div>
-                    <div class="product_detail-box">
-              <span>
-                $70.00
-              </span>
-                        <p>
-                            Black BackPack
-                        </p>
-                    </div>
-                </div>
-            </a>
-            <a href="">
-                <div class="product_box">
-                    <div class="product_img-box">
-                        <img src="images/p9.png" alt="" />
-                        <span>
-                Add to Cart
+                SHOP NOW
               </span>
                     </div>
                     <div class="product_detail-box">
@@ -440,22 +350,112 @@
                 $150.00
               </span>
                         <p>
-                            Brown Bag
+                            Portable Fan
                         </p>
                     </div>
                 </div>
             </a>
-            <a href="">
+            <a href="products.jsp">
                 <div class="product_box">
                     <div class="product_img-box">
-                        <img src="images/p10.png" alt="" />
+                        <img src="images/p5.png" alt="" />
                         <span>
-                Add to Cart
+                SHOP NOW
               </span>
                     </div>
                     <div class="product_detail-box">
               <span>
-                $50.00
+                $300.00
+              </span>
+                        <p>
+                            Luxe HeadPhone (Royal Pink)
+                        </p>
+                    </div>
+                </div>
+            </a>
+            <a href="products.jsp">
+                <div class="product_box">
+                    <div class="product_img-box">
+                        <img src="images/p6.png" alt="" />
+                        <span>
+                SHOP NOW
+              </span>
+                    </div>
+                    <div class="product_detail-box">
+              <span>
+                $250.00
+              </span>
+                        <p>
+                            Ciel Shades (Black)
+                        </p>
+                    </div>
+                </div>
+            </a>
+            <a href="products.jsp">
+                <div class="product_box">
+                    <div class="product_img-box">
+                        <img src="images/p7.png" alt="" />
+                        <span>
+                SHOP NOW
+              </span>
+                    </div>
+                    <div class="product_detail-box">
+              <span>
+                $400.00
+              </span>
+                        <p>
+                            Supreme Sneakers
+                        </p>
+                    </div>
+                </div>
+            </a>
+            <a href="products.jsp">
+                <div class="product_box">
+                    <div class="product_img-box">
+                        <img src="images/p8.png" alt="" />
+                        <span>
+                SHOP NOW
+              </span>
+                    </div>
+                    <div class="product_detail-box">
+              <span>
+                $200.00
+              </span>
+                        <p>
+                            Max Pack (Black)
+                        </p>
+                    </div>
+                </div>
+            </a>
+            <a href="products.jsp">
+                <div class="product_box">
+                    <div class="product_img-box">
+                        <img src="images/p9.png" alt="" />
+                        <span>
+                SHOP NOW
+              </span>
+                    </div>
+                    <div class="product_detail-box">
+              <span>
+                $250.00
+              </span>
+                        <p>
+                            Saint Tote Bag (Brown)
+                        </p>
+                    </div>
+                </div>
+            </a>
+            <a href="products.jsp">
+                <div class="product_box">
+                    <div class="product_img-box">
+                        <img src="images/p10.png" alt="" />
+                        <span>
+                SHOP NOW
+              </span>
+                    </div>
+                    <div class="product_detail-box">
+              <span>
+                $150.00
               </span>
                         <p>
                             Marble Grindes
@@ -463,30 +463,12 @@
                     </div>
                 </div>
             </a>
-            <a href="">
+            <a href="products.jsp">
                 <div class="product_box">
                     <div class="product_img-box">
                         <img src="images/p11.png" alt="" />
                         <span>
-                Add to Cart
-              </span>
-                    </div>
-                    <div class="product_detail-box">
-              <span>
-                $30.00
-              </span>
-                        <p>
-                            Pink Slides
-                        </p>
-                    </div>
-                </div>
-            </a>
-            <a href="">
-                <div class="product_box">
-                    <div class="product_img-box">
-                        <img src="images/p12.png" alt="" />
-                        <span>
-                Add to Cart
+                SHOP NOW
               </span>
                     </div>
                     <div class="product_detail-box">
@@ -494,7 +476,25 @@
                 $100.00
               </span>
                         <p>
-                            Luxe HeadSet
+                            Kiddies Pink Slides
+                        </p>
+                    </div>
+                </div>
+            </a>
+            <a href="products.jsp">
+                <div class="product_box">
+                    <div class="product_img-box">
+                        <img src="images/p12.png" alt="" />
+                        <span>
+                SHOP NOW
+              </span>
+                    </div>
+                    <div class="product_detail-box">
+              <span>
+                $300.00
+              </span>
+                        <p>
+                            Luxe HeadPhone (Green)
                         </p>
                     </div>
                 </div>
@@ -522,23 +522,14 @@
                                 Find Everything <br />
                                 From A to Z
                             </h3>
-                            <p>
-                                Shop Back to school
-                            </p>
                         </div>
                     </div>
                 </div>
                 <div class="shop_container">
                     <div class="row">
                         <div class="col-sm-6">
-                            <p>
-                                Shoes
-                            </p>
-                            <h3>
-                                Shop by catagories
-                            </h3>
                             <div>
-                                <a href="">
+                                <a href="products.jsp">
                                     View More
                                 </a>
                             </div>
@@ -711,7 +702,7 @@
                         Shop your favourite makeup products at discounted prices.
                     </p>
                     <div>
-                        <a href="">
+                        <a href="products.jsp">
                             Shop Now
                         </a>
                     </div>
@@ -740,7 +731,7 @@
                 </p>
             </div>
             <div class="col-md-7">
-                <form action="">
+                <form action="signup.jsp">
                     <input type="email" placeholder="Enter your email" />
                     <button>
                         Sign Up
@@ -848,7 +839,7 @@
                     </li>
                     <li>
                         <a href="">
-                            Sell on shop
+                            Sell on Shop
                         </a>
                     </li>
                     <li>
@@ -956,7 +947,7 @@
 <!-- footer section -->
 <section class="container-fluid footer_section">
     <p>
-        Copyright &copy; 2024 All Rights Reserved
+        Copyright &copy; 2020 All Rights Reserved
         <a href="https://html.design/"></a>
     </p>
 </section>

@@ -10,7 +10,7 @@ import java.io.IOException;
 import java.sql.*;
 
 @WebServlet(name = "loginServlet", value = "/login-servlet")
-public class UserLoginServlet extends HttpServlet {
+public class LoginServlet extends HttpServlet {
 
     private static final String JDBC_URL = "jdbc:mysql://localhost:3306/ecommerce";
     private static final String JDBC_USER = "root";

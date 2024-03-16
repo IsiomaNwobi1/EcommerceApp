@@ -8,24 +8,28 @@ import lombok.ToString;
 
 @Getter
 @Setter
-@ToString
 @AllArgsConstructor
+@ToString
 public class Product {
-
-    private int serialNumber;
-    private int quantity;
-    private String image;
-    private String productName;
-    private String amount;
+    private int id;
+    private String name;
     private String category;
+    private Double price;
+    private String image;
 
-    public Product(String image, String productName, String amount, String category) {
-        this.image = image;
-        this.productName = productName;
-        this.amount = amount;
-        this.category = category;
-    }
 
     public Product() {
+
+
+    }
+
+    public Product(String name, String category, Double price, String image) {
+        this.name = name;
+        this.category = category;
+        this.price = price;
+        this.image = image;
     }
 }
+
+
+
