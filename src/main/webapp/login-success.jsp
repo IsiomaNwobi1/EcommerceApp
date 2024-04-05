@@ -8,7 +8,7 @@
             color: white;
         }
         body{
-            background-color: #ff5dd7;
+            background-color: steelblue;
         }
         h1{
             color: white;
